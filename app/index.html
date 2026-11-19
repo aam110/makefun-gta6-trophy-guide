@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="The offline guide and tracker for all 55 Grand Theft Auto VI trophies on PlayStation 5: official names, descriptions and grades, a cited guide for each, a roadmap to the platinum, and a checklist that saves in your browser.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2312081f'/%3E%3Ctext x='32' y='44' font-family='Arial Black, sans-serif' font-size='30' font-weight='900' fill='%23ffc93d' text-anchor='middle'%3EVI%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-sun" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="eyebrow">Grand Theft Auto VI &middot; PlayStation 5 &middot; Offline guide &amp; tracker</p>
+    <h1>LEONIDA <span>LEGEND</span></h1>
+    <p class="tagline">Every one of the 55 trophies, with a cited guide, a roadmap to the platinum, and a checklist that remembers your progress. No account, no network, no spoilers unless you want them.</p>
+    <div class="hero-stats" id="heroStats"></div>
+    <div class="progress-wrap">
+      <div class="progress-head">
+        <span id="progressLabel">0 of 55 earned</span>
+        <span id="progressPct">0%</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <p class="progress-sub" id="gradeCounts"></p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="roadmap" id="roadmapSection" aria-label="Roadmap to the platinum">
+    <h2>The road to the platinum</h2>
+    <p class="section-sub">Three stages, about 200 hours, one playthrough. No online trophies, no difficulty trophies, no mission replay &mdash; so save at the start of every chapter.</p>
+    <div class="roadmap-grid" id="roadmap"></div>
+    <aside class="missable-alert">
+      <strong>⚠ One trophy can be missed.</strong>
+      <span><b>Positive Mental Attitude</b> &mdash; Lucia&rsquo;s balcony meditation in Chapter 1 may only be available during that chapter (GTABase, PowerPyx). Meditate there before Chapter 1 ends, and keep a manual save from the chapter&rsquo;s start. Everything else can be finished in free roam after the story.</span>
+    </aside>
+  </section>
+
+  <section class="tracker" aria-label="Trophy checklist">
+    <div class="toolbar">
+      <div class="toolbar-row">
+        <label class="search-box">
+          <span class="sr-only">Search trophies</span>
+          <input id="search" type="search" placeholder="Search a trophy, mission or keyword&hellip;" autocomplete="off">
+        </label>
+        <label class="grade-picker">
+          <span class="sr-only">Grade</span>
+          <select id="grade">
+            <option value="all">All grades</option>
+            <option value="platinum">Platinum</option>
+            <option value="gold">Gold</option>
+            <option value="silver">Silver</option>
+            <option value="bronze">Bronze</option>
+          </select>
+        </label>
+        <label class="spoiler-toggle">
+          <input id="spoiler" type="checkbox">
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+          Hide story spoilers
+        </label>
+      </div>
+      <div class="toolbar-row">
+        <div class="chips" id="kindChips" role="group" aria-label="Filter by kind">
+          <button type="button" data-kind="all" class="chip active">All <b>55</b></button>
+          <button type="button" data-kind="story" class="chip">Story <b>24</b></button>
+          <button type="button" data-kind="missable" class="chip warn">Missable <b>1</b></button>
+          <button type="button" data-kind="collectibles" class="chip">Collectibles <b>6</b></button>
+          <button type="button" data-kind="activities" class="chip">Activities <b>25</b></button>
+          <button type="button" data-kind="online" class="chip">Online <b>0</b></button>
+        </div>
+        <div class="file-actions">
+          <span class="toolbar-progress" id="toolbarProgress">0 of 55 earned</span>
+          <button id="export" type="button">Export progress</button>
+          <label class="import-btn">Import progress<input id="import" type="file" accept="application/json,.json"></label>
+          <button id="reset" type="button" class="quiet">Reset</button>
+        </div>
+      </div>
+      <p class="toolbar-note" id="listNote"></p>
+    </div>
+
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="emptyState" hidden></p>
+  </section>
+
+  <section class="about">
+    <h2>About this guide</h2>
+    <p>Trophy names, descriptions and grades are the official PlayStation text, as Exophase and PSNProfiles listed the 55-trophy set on 18 November 2026 (1 platinum, 2 gold, 6 silver, 46 bronze; 28 hidden until earned). Every guide is written for this entry in its own words and names its sources beside it &mdash; a source is cited, never copied. Where no guide source has confirmed a method, the guide says so plainly instead of presenting a guess as fact.</p>
+    <p>Your progress lives only in this browser (localStorage) and in the export file you choose to save. The app loads no network resources and works with the network off. This is an unofficial fan-made guide; it uses no Rockstar Games logo, artwork or screenshots of the game.</p>
+    <p class="source-line">Sources consulted: Exophase &middot; PSNProfiles &middot; GTABase &middot; PowerPyx &middot; Output Lag &middot; PlanetGTA6 &middot; GTA Vibes &middot; GTA Zone</p>
+  </section>
+</main>
+
+<footer>
+  <p>Leonida Legend &mdash; an unofficial offline trophy guide for Grand Theft Auto VI. Built for the make.fun trophy guide bounty.</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
