@@ -3,6 +3,7 @@
 [![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
 [![rank](https://make.fun/badge/gta6-trophy-guide-01/aam110/makefun-gta6-trophy-guide/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
 [![reward](https://make.fun/badge/gta6-trophy-guide-01/aam110/makefun-gta6-trophy-guide/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![CI](https://github.com/aam110/makefun-gta6-trophy-guide/actions/workflows/ci.yml/badge.svg)](https://github.com/aam110/makefun-gta6-trophy-guide/actions/workflows/ci.yml)
 
 **Leonida Legend** is an offline GTA VI trophy guide + tracker, built for the [make.fun](https://make.fun) **gta6-trophy-guide-01 — Build the best GTA 6 trophy guide** competition. It runs entirely offline from static files: no network request, no build step.
 
